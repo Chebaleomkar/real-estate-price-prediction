@@ -126,7 +126,7 @@ with col2:
 
 st.markdown("---")
 
-if st.button("🔮 Predict Price", type="primary", use_container_width=True):
+if st.button(" Predict Price", type="primary", use_container_width=True):
     
     property_data = {
         "bath": float(bath),
@@ -236,7 +236,7 @@ if st.button("🔮 Predict Price", type="primary", use_container_width=True):
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9rem;">
-    <p>Built with ❤️ using Streamlit & FastAPI | Models trained on Bangalore House Price Dataset</p>
+    <p>Built with ❤️ using Streamlit & FastAPI by <a href="https://www.google.com/search?q=omkar+chebale" target="_blank">Omkar Chebale</a> | Models trained on Bangalore House Price Dataset</p>
     <p>🔗 <a href="https://github.com/Chebaleomkar/real-estate-price-prediction" target="_blank">GitHub Repository</a></p>
 </div>
 """, unsafe_allow_html=True)
