@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "https://real-estate-price-prediction-api-e03q.onrender.com"
+API_URL = "http://localhost:8000"
 
 LOCATIONS = [
     "Whitefield", "Sarjapur  Road", "Electronic City", "Marathahalli", 
